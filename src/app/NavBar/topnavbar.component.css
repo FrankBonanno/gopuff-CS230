@@ -1,0 +1,8 @@
+.sign-up-btn {
+  border-radius: 30px;
+  padding: 10px 15px;
+}
+
+.sign-up-btn:hover {
+  background-color: #808080;
+}
