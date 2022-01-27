@@ -1,13 +1,25 @@
-<nav class="navbar navbar-expand navbar-light bg-light px-5">
+<nav class="navbar navbar-expand navbar-light bg-light px-5 sticky-top">
     <div class="container-fluid">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="https://gopuff.com">
             <img src="../../assets/gopufflogo.png" alt="" width="111.1761" height="41.4642">
         </a>
 
         <div class="navbar-nav float-end px-5 gap-3 fw-bold fs-6 align-items-center">
             <a class="nav-link" href="#">Sign In</a>
             <button type="button" class="btn btn-dark sign-up-btn fw-bold fs-6">Sign Up</button>
-            <a class="nav-link" href="#">EN USA</a>
+            <div class="dropdown">
+                <button class="btn btn-light dropdown-toggle fw-bold" type="button" id="dropdownMenuButton1"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    EN USA
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <li><a class="dropdown-item " href="#">English US</a></li>
+                    <li><a class="dropdown-item" href="#">English CA</a></li>
+                    <li><a class="dropdown-item" href="#">Francais UK</a></li>
+                    <li><a class="dropdown-item" href="#">Espanol ES</a></li>
+                    <li><a class="dropdown-item" href="#">Deutsch DE</a></li>
+                </ul>
+            </div>
         </div>
     </div>
 </nav>
