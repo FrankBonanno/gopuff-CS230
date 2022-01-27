@@ -1,12 +1,9 @@
 .sign-up-btn {
   border-radius: 30px;
   padding: 10px 15px;
+  background-color: black;
 }
 
 .sign-up-btn:hover {
   background-color: #808080;
-}
-
-.ltBlueColor {
-  color: #00ccff;
 }
