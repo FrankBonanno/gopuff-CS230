@@ -1,4 +1,4 @@
-import { Component } from "@angular/core";
+import { Component, Input } from "@angular/core";
 
 @Component({
     selector: "gp-categorycard",
@@ -7,5 +7,11 @@ import { Component } from "@angular/core";
 })
 
 export class CategoryCardComponent {
+    @Input() img: string;
+    @Input() title: string;
 
+    constructor() {
+        this.img = "";
+        this.title = "MISSING TITLE";
+    }
 }

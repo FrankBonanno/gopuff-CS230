@@ -1,6 +1,11 @@
 <gp-topnavbar>Loading...</gp-topnavbar>
 
 <gp-top_carousel>Loading...</gp-top_carousel>
-<gp-categorycard>Loading...</gp-categorycard>
+
+<div class="container-fluid d-flex">
+    <div *ngFor="let catCard of catCards" class="mx-2">
+        <gp-categorycard img={{catCard.img}} title={{catCard.title}}>Loading...</gp-categorycard>
+    </div>
+</div>
 
 <gp-bottomnavbar>Loading...</gp-bottomnavbar>
