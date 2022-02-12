@@ -7,6 +7,8 @@ import { CategoryCardComponent } from './CategoryCard/cat-card.component';
 
 import { BottomNavBarComponent } from './NavBar/bottomnavbar.component';
 import { TopNavBarComponent } from './NavBar/topnavbar.component';
+import { AppRoutingModule } from './app-routing.module';
+import { HomeLayoutComponent } from './Layouts/home-layout.component';
 
 
 @NgModule({
@@ -16,9 +18,11 @@ import { TopNavBarComponent } from './NavBar/topnavbar.component';
     BottomNavBarComponent,
     CategoryCardComponent,
     TopCarouselComponent,
+    HomeLayoutComponent,
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
