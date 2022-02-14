@@ -1,6 +1,6 @@
 .gp__top-carousel {
-  width: 50%;
-  margin: auto;
+  width: 50vw;
+  height: 100%;
 }
 
 .gp_carousel-hidden-button:hover {

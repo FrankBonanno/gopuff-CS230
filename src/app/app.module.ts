@@ -9,6 +9,8 @@ import { BottomNavBarComponent } from './NavBar/bottomnavbar.component';
 import { TopNavBarComponent } from './NavBar/topnavbar.component';
 import { AppRoutingModule } from './app-routing.module';
 import { HomeLayoutComponent } from './Layouts/home-layout.component';
+import { LeftVerticalCarouselComponent } from './Carousels/left-vertical-carousel/left-vertical-carousel.component';
+import { RightVerticalCarouselComponent } from './Carousels/right-vertical-carousel/right-vertical-carousel.component';
 
 
 @NgModule({
@@ -19,6 +21,8 @@ import { HomeLayoutComponent } from './Layouts/home-layout.component';
     CategoryCardComponent,
     TopCarouselComponent,
     HomeLayoutComponent,
+    LeftVerticalCarouselComponent,
+    RightVerticalCarouselComponent,
   ],
   imports: [
     BrowserModule,

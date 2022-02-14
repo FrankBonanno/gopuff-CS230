@@ -1,7 +1,37 @@
 <gp-topnavbar>Loading...</gp-topnavbar>
 
+<!-- <div class="container m-0">
+    <div class="row vw-100">
+        <div class="col vh-100 gp__header-left p-0">
 
-<gp-top_carousel>Loading...</gp-top_carousel>
+        </div>
+        <div class="col p-0">
+            
+            <gp-top_carousel>Loading...</gp-top_carousel>
+                <div class="col-6 p-0">
+                    <gp-left-vertical-carousel>Loading...</gp-left-vertical-carousel>
+                </div>
+                <div class="col-6 p-0">
+
+                </div>
+        </div>
+    </div>
+</div> -->
+
+<div class="gp__header-wrapper overflow-hidden">
+    <div class="gp__header-left vh-100">
+
+    </div>
+    <div class="gp__header-right">
+        <gp-top_carousel id="top" class="h-100">Loading...</gp-top_carousel>
+    </div>
+    <div class="gp__header-right-left">
+        <gp-left-vertical-carousel id="bottom-left" class="h-100">Loading...</gp-left-vertical-carousel>
+    </div>
+    <div class="gp__header-right-right">
+        <gp-right-vertical-carousel id="bottom-right" class="h-100">Loading...</gp-right-vertical-carousel>
+    </div>
+</div>
 
 <div class="container-fluid d-flex flex-center my-3 flex-wrap">
     <div *ngFor="let catCard of catCards" class="m-3">

@@ -5,6 +5,7 @@ import { mock_catCard_list } from "../CategoryCard/mock_catCard_list";
 @Component({
     selector: 'gp-home-layout',
     templateUrl: 'home-layout.component.html',
+    styleUrls: ['home-layout.component.css']
 })
 
 export class HomeLayoutComponent {
