@@ -26,3 +26,11 @@
   grid-column: 4;
   grid-row: 3 / 5;
 }
+
+.flex-even {
+  flex: 1;
+}
+
+.gp__info-text {
+  color: #96a2a6;
+}

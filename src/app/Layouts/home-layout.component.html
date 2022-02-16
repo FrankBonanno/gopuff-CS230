@@ -1,27 +1,13 @@
-<gp-topnavbar>Loading...</gp-topnavbar>
+<gp-topnavbar class="vw-100">Loading...</gp-topnavbar>
 
-<!-- <div class="container m-0">
-    <div class="row vw-100">
-        <div class="col vh-100 gp__header-left p-0">
-
-        </div>
-        <div class="col p-0">
-            
-            <gp-top_carousel>Loading...</gp-top_carousel>
-                <div class="col-6 p-0">
-                    <gp-left-vertical-carousel>Loading...</gp-left-vertical-carousel>
-                </div>
-                <div class="col-6 p-0">
-
-                </div>
-        </div>
-    </div>
-</div> -->
-
+<!-- Could not figure out how to use bootstraps grid for this scenario -->
 <div class="gp__header-wrapper overflow-hidden">
     <div class="gp__header-left vh-100">
-
+        <!-- Text -->
+        <!-- Search Bar -->
     </div>
+
+
     <div class="gp__header-right">
         <gp-top_carousel id="top" class="h-100">Loading...</gp-top_carousel>
     </div>
@@ -33,6 +19,18 @@
     </div>
 </div>
 
+<!-- Info Cards -->
+<div class="container-fluid d-flex mt-3 justify-content-evenly w-full px-5">
+    <div *ngFor="let infoCard of infoCards" class="flex-even mt-4">
+        <gp-info-card img={{infoCard.img}} title={{infoCard.title}} description={{infoCard.description}}>Loading...
+        </gp-info-card>
+    </div>
+</div>
+<div class="d-flex flex-center p-0">
+    <p class="gp__info-text">*Not guaranteed; average delivery time.</p>
+</div>
+
+<!-- Category Cards -->
 <div class="container-fluid d-flex flex-center my-3 flex-wrap">
     <div *ngFor="let catCard of catCards" class="m-3">
         <gp-categorycard img={{catCard.img}} title={{catCard.title}}>Loading...</gp-categorycard>

@@ -6,6 +6,9 @@ Main Features:
     - Created a responsive grid for the category cards
     - Created a CHANGELOG
     - Implemented basic routing setup
+    - Added vertical carousel components
+      - Need to add vertical movement
+    - Added routing to home page
 
 Bonus Features:
     - Created a helper class called 'flex-center' to quickly center flex-based items on the x-axis
@@ -14,4 +17,4 @@ Bonus Features:
     - Clicking the logo opens a new tab with the original gopuff website
     - Created a home layout to organize startup components
     - Updated README
-    
+    - Added main screen header components
