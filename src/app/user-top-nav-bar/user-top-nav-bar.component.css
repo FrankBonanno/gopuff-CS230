@@ -1,0 +1,15 @@
+.gp__back-btn {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: #00a4ff;
+  border: none;
+}
+
+.gp__back-btn:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.gp__user-top-nav {
+  background-color: #00a4ff;
+}

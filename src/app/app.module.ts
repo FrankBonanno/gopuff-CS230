@@ -17,6 +17,9 @@ import { UserLoginLayoutComponent } from './Layouts/user-login-layout.component'
 import { SignUpLayoutComponent } from './Layouts/Sign-Up/sign-up-layout.component';
 import { CategoriesLayoutComponent } from './Layouts/Categories/categories-layout.component';
 import { StoreLayoutComponent } from './Layouts/Store/store-layout.component';
+import { UserTopNavBarComponent } from './user-top-nav-bar/user-top-nav-bar.component';
+import { NoopAnimationsModule } from '@angular/platform-browser/animations';
+import { MatIconModule } from '@angular/material/icon';
 
 
 @NgModule({
@@ -34,11 +37,14 @@ import { StoreLayoutComponent } from './Layouts/Store/store-layout.component';
     UserLoginLayoutComponent,
     SignUpLayoutComponent,
     CategoriesLayoutComponent,
-    StoreLayoutComponent
+    StoreLayoutComponent,
+    UserTopNavBarComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NoopAnimationsModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]

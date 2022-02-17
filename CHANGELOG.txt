@@ -15,6 +15,7 @@ Main Features:
       - Sign In
       - Sign Up 
     - Added new icon components
+    - Added sign-in/sign-up top navbar component
 
 
 Bonus Features:
