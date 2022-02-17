@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand navbar-light bg-light px-5 sticky-top">
     <div class="container-fluid">
-        <a class="navbar-brand" href="https://gopuff.com" target="_blank">
+        <a class="navbar-brand" routerLink="">
             <!-- <img src="../../assets/gopufflogo.png" alt="" width="111.1761" height="41.4642"> -->
             <svg id="puff-logo" data-name="logo" width="111.1761" height="41.4642" viewBox="0 0 91 30"
                 transform="translate(-0.0001 0.0001)" stroke="#00a4ff" fill="#00a4ff" xmlns="http://www.w3.org/2000/svg"
@@ -24,8 +24,9 @@
         </a>
 
         <div class="navbar-nav float-end px-5 gap-3 fw-bold fs-6 align-items-center">
-            <a class="nav-link" href="#">Sign In</a>
-            <button type="button" class="btn btn-dark sign-up-btn fw-bold fs-6">Sign Up</button>
+            <a class="nav-link" routerLink="user-login">Sign In</a>
+            <button type="button" routerLink="user-registration" class="btn btn-dark sign-up-btn fw-bold fs-6">Sign
+                Up</button>
             <div class="dropdown">
                 <button class="btn btn-light dropdown-toggle fw-bold" type="button" id="dropdownMenuButton1"
                     data-bs-toggle="dropdown" aria-expanded="false">

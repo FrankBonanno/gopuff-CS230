@@ -13,6 +13,10 @@ import { LeftVerticalCarouselComponent } from './Carousels/left-vertical-carouse
 import { RightVerticalCarouselComponent } from './Carousels/right-vertical-carousel/right-vertical-carousel.component';
 import { SearchBarComponent } from './search-bar/search-bar.component';
 import { InfoCardComponent } from './info-card/info-card.component';
+import { UserLoginLayoutComponent } from './Layouts/user-login-layout.component';
+import { SignUpLayoutComponent } from './Layouts/Sign-Up/sign-up-layout.component';
+import { CategoriesLayoutComponent } from './Layouts/Categories/categories-layout.component';
+import { StoreLayoutComponent } from './Layouts/Store/store-layout.component';
 
 
 @NgModule({
@@ -27,6 +31,10 @@ import { InfoCardComponent } from './info-card/info-card.component';
     RightVerticalCarouselComponent,
     SearchBarComponent,
     InfoCardComponent,
+    UserLoginLayoutComponent,
+    SignUpLayoutComponent,
+    CategoriesLayoutComponent,
+    StoreLayoutComponent
   ],
   imports: [
     BrowserModule,

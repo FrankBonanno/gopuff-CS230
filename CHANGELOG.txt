@@ -9,6 +9,13 @@ Main Features:
     - Added vertical carousel components
       - Need to add vertical movement
     - Added routing to home page
+    - Added routing to 4 new layouts
+      - Store (will contain individual links for all categories)
+      - Categories
+      - Sign In
+      - Sign Up 
+    - Added new icon components
+
 
 Bonus Features:
     - Created a helper class called 'flex-center' to quickly center flex-based items on the x-axis
@@ -18,3 +25,4 @@ Bonus Features:
     - Created a home layout to organize startup components
     - Updated README
     - Added main screen header components
+    - Formatted home screen more
