@@ -20,6 +20,8 @@ import { StoreLayoutComponent } from './Layouts/Store/store-layout.component';
 import { UserTopNavBarComponent } from './user-top-nav-bar/user-top-nav-bar.component';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { MatIconModule } from '@angular/material/icon';
+import { SignUpEmailBoxComponent } from './sign-up-email-box/sign-up-email-box.component';
+import { SignUpBottomNavComponent } from './sign-up-bottom-nav/sign-up-bottom-nav.component';
 
 
 @NgModule({
@@ -38,7 +40,9 @@ import { MatIconModule } from '@angular/material/icon';
     SignUpLayoutComponent,
     CategoriesLayoutComponent,
     StoreLayoutComponent,
-    UserTopNavBarComponent
+    UserTopNavBarComponent,
+    SignUpEmailBoxComponent,
+    SignUpBottomNavComponent
   ],
   imports: [
     BrowserModule,

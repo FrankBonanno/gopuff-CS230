@@ -1,0 +1,30 @@
+.form-control {
+  background-color: #f3f6f9;
+  border: none;
+  border-radius: 0;
+}
+
+.input-group-text {
+  background-color: #f3f6f9;
+  border: none;
+  border-radius: 0;
+}
+
+.gp__sign-up-icon {
+  width: 24px;
+  height: 24px;
+  fill: #919ca1;
+}
+
+.btn {
+  background-color: #e4e8eb;
+  height: 3rem;
+  color: #919ca1;
+  font-size: 20px;
+  border-radius: 8px;
+}
+
+.form-control:focus {
+  border: none;
+  border-bottom: #00a4ff;
+}

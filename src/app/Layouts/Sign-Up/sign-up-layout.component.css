@@ -1,3 +1,13 @@
 .gp__sign-up-body {
   max-width: 400px;
 }
+
+.gp__sign-up-text {
+  font-size: 12px;
+  letter-spacing: 0.05em;
+}
+
+.gp__link {
+  text-decoration: none;
+  color: #00a4ff;
+}
