@@ -20,6 +20,7 @@ Main Features:
     - Added sign-in/sign-up top navbar component
     - Added sign-up email submission form component
     - Added sign-up bottom navbar component
+    - Added sign-in mobile number submission component
 
 
 Bonus Features:
@@ -36,4 +37,5 @@ Bonus Features:
     - Added more details to sign-up layout
     - Centered gopuff logo for sign-in/sign-up top navbar
     - Finished styling sign-up layout
+    - Finished styling sign-in layout 
     

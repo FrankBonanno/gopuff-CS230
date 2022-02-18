@@ -22,6 +22,7 @@ import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { MatIconModule } from '@angular/material/icon';
 import { SignUpEmailBoxComponent } from './sign-up-email-box/sign-up-email-box.component';
 import { SignUpBottomNavComponent } from './sign-up-bottom-nav/sign-up-bottom-nav.component';
+import { SignInMobileNumberComponent } from './sign-in-mobile-number/sign-in-mobile-number.component';
 
 
 @NgModule({
@@ -42,7 +43,8 @@ import { SignUpBottomNavComponent } from './sign-up-bottom-nav/sign-up-bottom-na
     StoreLayoutComponent,
     UserTopNavBarComponent,
     SignUpEmailBoxComponent,
-    SignUpBottomNavComponent
+    SignUpBottomNavComponent,
+    SignInMobileNumberComponent
   ],
   imports: [
     BrowserModule,
