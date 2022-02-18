@@ -23,6 +23,7 @@ import { MatIconModule } from '@angular/material/icon';
 import { SignUpEmailBoxComponent } from './sign-up-email-box/sign-up-email-box.component';
 import { SignUpBottomNavComponent } from './sign-up-bottom-nav/sign-up-bottom-nav.component';
 import { SignInMobileNumberComponent } from './sign-in-mobile-number/sign-in-mobile-number.component';
+import { HeaderAddressSearchComponent } from './header-address-search/header-address-search.component';
 
 
 @NgModule({
@@ -44,7 +45,8 @@ import { SignInMobileNumberComponent } from './sign-in-mobile-number/sign-in-mob
     UserTopNavBarComponent,
     SignUpEmailBoxComponent,
     SignUpBottomNavComponent,
-    SignInMobileNumberComponent
+    SignInMobileNumberComponent,
+    HeaderAddressSearchComponent
   ],
   imports: [
     BrowserModule,
