@@ -3,7 +3,7 @@
 <!-- Header (could not figure out how to use bootstraps grid for this scenario) -->
 <div class="gp__header-wrapper overflow-hidden">
     <div class="gp__header-left vh-100 d-flex flex-column justify-content-center align-items-center">
-        <div class="d-flex flex-column fw-bolder">
+        <div class="d-flex flex-column fw-bolder text-black">
             <span>Daily</span>
             <span>essentials</span>
             <span>delivered in</span>
@@ -26,7 +26,7 @@
 
 <!-- Info Cards -->
 <div class="container-fluid d-flex mt-3 justify-content-evenly w-full px-5">
-    <div *ngFor="let infoCard of infoCards" class="flex-even mt-4">
+    <div *ngFor="let infoCard of infoCards" class="flex-even mt-4 text-black">
         <gp-info-card img={{infoCard.img}} title={{infoCard.title}} description={{infoCard.description}}>Loading...
         </gp-info-card>
     </div>

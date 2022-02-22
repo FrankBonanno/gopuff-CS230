@@ -25,7 +25,7 @@ Main Features:
 
 
 Bonus Features:
-  Before 2/27/22
+  Before 2/17/22
     - Created a helper class called 'flex-center' to quickly center flex-based items on the x-axis
     - Created a list for all 12 category cards containing the image and title
     - Centered the category cards div
@@ -40,4 +40,7 @@ Bonus Features:
     - Finished styling sign-up layout
     - Finished styling sign-in layout 
     - Finished home screen header
+  2/22/22
+    - Added and implemented new font
+    - Adjustd top navbar
     
