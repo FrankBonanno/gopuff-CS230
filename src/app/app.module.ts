@@ -24,6 +24,9 @@ import { SignUpEmailBoxComponent } from './sign-up-email-box/sign-up-email-box.c
 import { SignUpBottomNavComponent } from './sign-up-bottom-nav/sign-up-bottom-nav.component';
 import { SignInMobileNumberComponent } from './sign-in-mobile-number/sign-in-mobile-number.component';
 import { HeaderAddressSearchComponent } from './header-address-search/header-address-search.component';
+import { CategoriesTopNavBarComponent } from './NavBar/CategoriesPage/categoriesTopNavBar.component';
+import { CategoriesSecondTopNavBar } from './NavBar/CategoriesPage/categoriesSecondTopNavBar.component';
+import { CategoriesBottomNavComponent } from './NavBar/CategoriesPage/categories-bottom-nav/categories-bottom-nav.component';
 
 
 @NgModule({
@@ -46,7 +49,10 @@ import { HeaderAddressSearchComponent } from './header-address-search/header-add
     SignUpEmailBoxComponent,
     SignUpBottomNavComponent,
     SignInMobileNumberComponent,
-    HeaderAddressSearchComponent
+    HeaderAddressSearchComponent,
+    CategoriesTopNavBarComponent,
+    CategoriesSecondTopNavBar,
+    CategoriesBottomNavComponent
   ],
   imports: [
     BrowserModule,

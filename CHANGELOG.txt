@@ -22,6 +22,15 @@ Main Features:
     - Added sign-up bottom navbar component
     - Added sign-in mobile number submission component
     - Added home screen header address search bar component
+  2/23/22
+    - Added categories top search nav bar component
+    - Added categories top delivery nav bar component
+    - Added the following attributes to info card component:
+      - img
+      - title
+      - description
+    - Info card generate using ngFor loop
+    - Created categories bottom navbar component
 
 
 Bonus Features:
@@ -42,5 +51,5 @@ Bonus Features:
     - Finished home screen header
   2/22/22
     - Added and implemented new font
-    - Adjustd top navbar
+    - Adjusted home screen top navbar
     

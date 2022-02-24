@@ -16,6 +16,7 @@
   font-size: 108px;
   line-height: 108px;
   float: left;
+  font-weight: 900;
 }
 
 .gp__header-right {
@@ -49,6 +50,15 @@
 .gp__shopping-text {
   color: #00a4ff;
   margin-top: 0;
+  text-decoration: none;
+  position: relative;
+}
+
+.gp__shopping-text:hover {
+  padding-bottom: 2px;
+  border-bottom-style: solid;
+  border-bottom-width: 3.1px;
+  width: fit-content;
 }
 
 .gp__header-list li {
