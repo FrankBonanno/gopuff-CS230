@@ -34,6 +34,7 @@ Main Features:
   3/3/22
     - Created the database
     - Used http requests to pull data from the db and display on a new component
+    - Changed cat-card and info-card to retrieve data from db
 
 
 Bonus Features:
