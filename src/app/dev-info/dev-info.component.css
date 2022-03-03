@@ -1,0 +1,14 @@
+.flex-column {
+  font-weight: 700;
+  color: #00a4ff;
+}
+
+.flex-column > a {
+  text-decoration: none;
+  color: #00a4ff;
+}
+
+.flex-column > a:hover {
+  text-decoration: underline;
+  color: #0386cc;
+}

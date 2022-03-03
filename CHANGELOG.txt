@@ -31,6 +31,9 @@ Main Features:
       - description
     - Info card generate using ngFor loop
     - Created categories bottom navbar component
+  3/3/22
+    - Created the database
+    - Used http requests to pull data from the db and display on a new component
 
 
 Bonus Features:
@@ -52,4 +55,6 @@ Bonus Features:
   2/22/22
     - Added and implemented new font
     - Adjusted home screen top navbar
+  3/3/22
+    - Styled new dev-info component to match the theme
     

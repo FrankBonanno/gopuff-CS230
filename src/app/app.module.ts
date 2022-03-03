@@ -27,7 +27,8 @@ import { HeaderAddressSearchComponent } from './header-address-search/header-add
 import { CategoriesTopNavBarComponent } from './NavBar/CategoriesPage/categoriesTopNavBar.component';
 import { CategoriesSecondTopNavBar } from './NavBar/CategoriesPage/categoriesSecondTopNavBar.component';
 import { CategoriesBottomNavComponent } from './NavBar/CategoriesPage/categories-bottom-nav/categories-bottom-nav.component';
-
+import { HttpClientModule } from '@angular/common/http';
+import { DevInfoComponent } from './dev-info/dev-info.component';
 
 @NgModule({
   declarations: [
@@ -52,15 +53,17 @@ import { CategoriesBottomNavComponent } from './NavBar/CategoriesPage/categories
     HeaderAddressSearchComponent,
     CategoriesTopNavBarComponent,
     CategoriesSecondTopNavBar,
-    CategoriesBottomNavComponent
+    CategoriesBottomNavComponent,
+    DevInfoComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NoopAnimationsModule,
-    MatIconModule
+    MatIconModule,
+    HttpClientModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
