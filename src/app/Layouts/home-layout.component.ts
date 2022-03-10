@@ -3,7 +3,6 @@ import { CatCardModel } from '../CategoryCard/cat-card.model';
 import { CatCardService } from '../CategoryCard/cat-card.service';
 import { InfoCardModel } from '../info-card/info-card.model';
 import { InfoCardService } from '../info-card/info-card.service';
-import { mock_infoCard_list } from '../info-card/mock-info-card-list';
 
 @Component({
   selector: 'gp-home-layout',
@@ -15,15 +14,11 @@ export class HomeLayoutComponent {
   catCards: CatCardModel[] = [];
   infoCards: InfoCardModel[] = [];
 
+  // Services
   constructor(
     private catCardService: CatCardService,
     private infoCardService: InfoCardService
-  ) {
-    // for (var infoCard of mock_infoCard_list) {
-    //   // console.log(infoCard);
-    //   this.infoCards.push(infoCard);
-    // }
-  }
+  ) {}
 
   ngOnInit(): void {
     // Get catCard data and push to list of catCards

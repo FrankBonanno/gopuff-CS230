@@ -35,6 +35,7 @@ Main Features:
     - Created the database
     - Used http requests to pull data from the db and display on a new component
     - Changed cat-card and info-card to retrieve data from db
+    - Created a service for cat-card and info-card to handle retreiving the data
 
 
 Bonus Features:
