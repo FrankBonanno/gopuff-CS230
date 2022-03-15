@@ -29,6 +29,11 @@ import { CategoriesSecondTopNavBar } from './NavBar/CategoriesPage/categoriesSec
 import { CategoriesBottomNavComponent } from './NavBar/CategoriesPage/categories-bottom-nav/categories-bottom-nav.component';
 import { HttpClientModule } from '@angular/common/http';
 import { DevInfoComponent } from './dev-info/dev-info.component';
+import { initializeApp, provideFirebaseApp } from '@angular/fire/app';
+import { environment } from '../environments/environment';
+import { provideDatabase, getDatabase } from '@angular/fire/database';
+import { AngularFireModule } from '@angular/fire/compat';
+import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
 
 @NgModule({
   declarations: [
@@ -62,6 +67,8 @@ import { DevInfoComponent } from './dev-info/dev-info.component';
     NoopAnimationsModule,
     MatIconModule,
     HttpClientModule,
+    AngularFireModule.initializeApp(environment.firebase),
+    AngularFirestoreModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

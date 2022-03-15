@@ -1,23 +1,22 @@
-import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { CatCardModel } from './cat-card.model';
+import { AngularFireDatabase } from '@angular/fire/compat/database';
 
 @Injectable({
   providedIn: 'root',
 })
 export class CatCardService {
-  private dbURL: string = 'https://go-puff-app-fb-default-rtdb.firebaseio.com/';
-  private catCardsEndPoint: string = 'catCards.json';
-
-  constructor(private http: HttpClient) {}
+  constructor(private db: AngularFireDatabase) {}
 
   public getCatCards() {
-    return this.http.get<CatCardModel[]>(this.dbURL + this.catCardsEndPoint);
+    // Get 'catCards' list from db
+    return this.db.list<CatCardModel>('catCards').valueChanges(); // valueChanges() updates when db changes
   }
 
   public getCatCard(index: number) {
-    return this.http.get<CatCardModel>(
-      this.dbURL + 'catCards/' + index + '.json'
-    );
+    // Get cat cards with a minimum price of 10 and update whenever db updates
+    // return this.db
+    //   .list('catCards', (ref) => ref.orderByChild('price').startAt(10))
+    //   .valueChanges();
   }
 }

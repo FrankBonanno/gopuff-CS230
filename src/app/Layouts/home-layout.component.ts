@@ -30,11 +30,6 @@ export class HomeLayoutComponent {
       }
     });
 
-    // Fetch a single cat card
-    this.catCardService.getCatCard(3).subscribe((data) => {
-      // console.log(data);
-    });
-
     // Fetch info cards data
     console.log('Fetch Info Cards >>');
     this.infoCardService.getInfoCards().subscribe((data) => {
