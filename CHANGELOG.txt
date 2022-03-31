@@ -41,6 +41,10 @@ Main Features:
       - Switched info-cards and category-cards to pull data using library instead of http
     - Deployed current production
       - https://go-puff-app-fb.web.app/
+  3/30/22
+    - Added admin page to add new category cards
+    - Linked db to push form info directly to db
+    - Automatically updates home page
 
 
 Bonus Features:
@@ -64,4 +68,6 @@ Bonus Features:
     - Adjusted home screen top navbar
   3/3/22
     - Styled new dev-info component to match the theme
+  3/30/22
+    - Minor Styling to form to fit site's theme
     

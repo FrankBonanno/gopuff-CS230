@@ -13,10 +13,7 @@ export class CatCardService {
     return this.db.list<CatCardModel>('catCards').valueChanges(); // valueChanges() updates when db changes
   }
 
-  public getCatCard(index: number) {
-    // Get cat cards with a minimum price of 10 and update whenever db updates
-    // return this.db
-    //   .list('catCards', (ref) => ref.orderByChild('price').startAt(10))
-    //   .valueChanges();
+  public addCategory(category: CatCardModel) {
+    this.db.list<CatCardModel>('catCards').push(category);
   }
 }
