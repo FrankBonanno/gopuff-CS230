@@ -1,0 +1,15 @@
+.btn {
+  background-color: #0eabff;
+  font-weight: 700;
+  color: white;
+}
+
+.btn:hover {
+  background-color: #097ebd;
+}
+
+p {
+  font-size: 30px;
+  font-weight: 700;
+  color: #00a4ff;
+}

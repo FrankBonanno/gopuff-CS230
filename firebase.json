@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "dist/gopuff-frank-bonanno",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

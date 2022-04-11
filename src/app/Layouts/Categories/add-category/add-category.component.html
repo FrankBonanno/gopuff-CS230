@@ -1,0 +1,23 @@
+<div class="container">
+    <div class="row mt-5">
+        <div class="col-4">
+            <p class="align-self-center">Add a category to the db!</p>
+            <form #addCategoryForm="ngForm" (ngSubmit)="addCategory(addCategoryForm.value)">
+                <div class="input-group">
+                    <span class="input-group-text">
+                        Path:
+                    </span>
+                    <input class="form-control" type="text" ngModel name="img" required>
+                </div>
+                <div class="input-group">
+                    <span class="input-group-text">
+                        Title:
+                    </span>
+                    <input class="form-control" type="text" ngModel name="title" required>
+                </div>
+                <button class="btn mt-3" type="submit" [disabled]="!addCategoryForm.valid">Add Category</button>
+
+            </form>
+        </div>
+    </div>
+</div>

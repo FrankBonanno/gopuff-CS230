@@ -6,38 +6,38 @@ import { UserLoginLayoutComponent } from './Layouts/user-login-layout.component'
 import { SignUpLayoutComponent } from './Layouts/Sign-Up/sign-up-layout.component';
 import { CategoriesLayoutComponent } from './Layouts/Categories/categories-layout.component';
 import { StoreLayoutComponent } from './Layouts/Store/store-layout.component';
+import { AddCategoryComponent } from './Layouts/Categories/add-category/add-category.component';
 
-const routes:Routes = [
+const routes: Routes = [
   {
-    path: "",
-    component: HomeLayoutComponent
+    path: '',
+    component: HomeLayoutComponent,
   },
   {
     path: 'user-login',
-    component: UserLoginLayoutComponent
+    component: UserLoginLayoutComponent,
   },
   {
     path: 'user-registration',
-    component: SignUpLayoutComponent
+    component: SignUpLayoutComponent,
   },
   {
     path: 'categories',
-    component: CategoriesLayoutComponent
+    component: CategoriesLayoutComponent,
   },
   {
     path: 'store',
-    component: StoreLayoutComponent
-  }
+    component: StoreLayoutComponent,
+  },
+  {
+    path: 'admin',
+    component: AddCategoryComponent,
+  },
 ];
 
 @NgModule({
   declarations: [],
-  imports: [
-    CommonModule,
-    RouterModule.forRoot(routes)
-  ],
-  exports: [
-    RouterModule
-  ]
+  imports: [CommonModule, RouterModule.forRoot(routes)],
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}
