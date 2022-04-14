@@ -45,6 +45,9 @@ Main Features:
     - Added admin page to add new category cards
     - Linked db to push form info directly to db
     - Automatically updates home page
+  4/13/22
+    - Added user authentication using Firebase REST api
+    - Created a new authentication component and service
 
 
 Bonus Features:
@@ -70,4 +73,6 @@ Bonus Features:
     - Styled new dev-info component to match the theme
   3/30/22
     - Minor Styling to form to fit site's theme
+  4/13/22
+    - Implemented a response when logging in based on the correct user login
     
