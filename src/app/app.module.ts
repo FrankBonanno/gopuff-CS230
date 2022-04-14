@@ -36,6 +36,7 @@ import { AngularFireModule } from '@angular/fire/compat';
 import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
 import { AddCategoryComponent } from './Layouts/Categories/add-category/add-category.component';
 import { FormsModule } from '@angular/forms';
+import { AuthenticationComponent } from './auth/authentication/authentication.component';
 
 @NgModule({
   declarations: [
@@ -63,6 +64,7 @@ import { FormsModule } from '@angular/forms';
     CategoriesBottomNavComponent,
     DevInfoComponent,
     AddCategoryComponent,
+    AuthenticationComponent,
   ],
   imports: [
     BrowserModule,

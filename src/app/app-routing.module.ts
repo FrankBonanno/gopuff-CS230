@@ -7,6 +7,7 @@ import { SignUpLayoutComponent } from './Layouts/Sign-Up/sign-up-layout.componen
 import { CategoriesLayoutComponent } from './Layouts/Categories/categories-layout.component';
 import { StoreLayoutComponent } from './Layouts/Store/store-layout.component';
 import { AddCategoryComponent } from './Layouts/Categories/add-category/add-category.component';
+import { AuthenticationComponent } from './auth/authentication/authentication.component';
 
 const routes: Routes = [
   {
@@ -32,6 +33,10 @@ const routes: Routes = [
   {
     path: 'admin',
     component: AddCategoryComponent,
+  },
+  {
+    path: 'auth',
+    component: AuthenticationComponent,
   },
 ];
 
